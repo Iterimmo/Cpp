@@ -1,0 +1,19 @@
+﻿  Кар.cpp
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(13,27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(34,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(35,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(36,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(37,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(38,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(39,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(40,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(41,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(42,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(43,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(44,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(45,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(46,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(47,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(48,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Iterimmo\Desktop\C++\Кар\Кар\Кар.cpp(49,31): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  Кар.vcxproj -> C:\Users\Iterimmo\Desktop\C++\Кар\x64\Debug\Кар.exe

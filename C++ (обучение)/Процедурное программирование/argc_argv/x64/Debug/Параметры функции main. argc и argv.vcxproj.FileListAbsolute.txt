@@ -1,0 +1,2 @@
+C:\Users\Iterimmo\Desktop\C++\Параметры функции main. argc и argv\x64\Debug\Параметры функции main. argc и argv.exe
+C:\Users\Iterimmo\Desktop\C++\argc_argv\x64\Debug\argc_argv.exe

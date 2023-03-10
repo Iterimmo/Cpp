@@ -1,0 +1,2 @@
+C:\Users\Iterimmo\Desktop\C++\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
+D:\Gamedev&C++\C++\Процедурное программирование\Указатели и константы\x64\Debug\ConsoleApplication2.exe
