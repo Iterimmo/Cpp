@@ -13,27 +13,40 @@ void dec2bin(int a)
 }
 
 
-int main(int argc,char* argv[])
+int main(int argc, char* argv[])
 {
     int segment = 0x5E200; // сразу умножим на 10
     int bias = 0xFF37;     // смещение
     std::cout << "\nIn hex :" << std::hex << segment + bias << "\nIn dec :" << std::dec << segment + bias << std::endl << std::endl;
-    
+
     nexttask;
     int BX = 0x4BB5;
-    
+
     dec2bin(BX);
     nexttask;
 
-    char str[7] = "hello!";
-    for (int i = 0; i < 7; i++) {
-        std::cout << (char*)(str+i) << std::endl;
+    int aa = 1; // любое 4-байтное число
+    char* pp = (char*)&aa;
+
+    std::cout << pp[0];
+    std::cout << pp[1];
+    std::cout << pp[2];
+    std::cout << pp[3];
+    std::cout << "\n";
+
+    if (pp[0] != 0) {
+        std::cout << "Little-endian";
     }
-    system("pause");
-
-    return 0;
-
+    else if (pp[3] != 0) {
+        std::cout << "Big-endian";
+    }
+    else {
+        std::cout << "Mixed-endian";
+    }
 }
+
+
+
 
 
 

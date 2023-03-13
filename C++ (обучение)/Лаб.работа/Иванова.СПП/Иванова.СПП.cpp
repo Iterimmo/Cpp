@@ -6,27 +6,24 @@
 int main()
 {
 	setlocale(LC_ALL, "ru");
-
-	int n,temp_n,x = 0,fact=1;
-	const int bs = 6, dg = 2, one = 1;
+	const int a = 6, b = 2, c = 1, d = 0;
+	int x2, x4, x1 = d, x3 = c;
 
 	std::cout << "Введите число итераций: ";
-	std::cin >> n;
-
-	while (!(n == 1))
+	std::cin >> x2;
+	while (!(x2 == c))
 	{
-		temp_n = 1;
-		fact = 1;
-		while (!(temp_n == n)) {
-			fact = fact + (temp_n *fact);
-			temp_n = temp_n + one;
+		x4 = c;
+		x3 = c;
+	
+		while (!(x4 == x2)) {
+			x3 = x3 + (x4 * x3);
+			x4 = x4 + c;
 		}
 
-	x = x + ((pow(bs, n) * (pow(n, dg) - one)) / (fact));
-
-	n = n - one;
+		x1 = x1 + ((pow(b, x2) * (pow(x2, a) - c)) / (x3));
+		x2 = x2 - c;
 	}
-	std::cout << "Ответ: " << x << std::endl;
-
+	std::cout << "Ответ: " << x1 << std::endl;
 }
 
