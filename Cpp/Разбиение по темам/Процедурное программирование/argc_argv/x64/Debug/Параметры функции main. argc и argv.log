@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Параметры функции main. argc и argv.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Параметры функции main. argc и argv.cpp
+C:\Users\Iterimmo\Desktop\C++\argc_argv\Параметры функции main. argc и argv.cpp(7,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Параметры функции main. argc и argv.vcxproj -> C:\Users\Iterimmo\Desktop\C++\argc_argv\x64\Debug\argc_argv.exe

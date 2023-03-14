@@ -1,0 +1,3 @@
+﻿  ConsoleApplication2.cpp
+D:\Gamedev&C++\C++\Процедурное программирование\Указатели и константы\ConsoleApplication2.cpp(29,19): warning C4244: инициализация: преобразование "double" в "const int", возможна потеря данных
+  ConsoleApplication2.vcxproj -> D:\Gamedev&C++\C++\Процедурное программирование\Указатели и константы\x64\Debug\ConsoleApplication2.exe

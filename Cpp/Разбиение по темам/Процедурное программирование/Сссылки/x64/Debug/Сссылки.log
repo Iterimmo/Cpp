@@ -1,0 +1,17 @@
+﻿  Сссылки.cpp
+C:\Users\Iterimmo\Desktop\C++\Сссылки\Сссылки.cpp(30,9): warning C4244: =: преобразование "T2" в "T1", возможна потеря данных
+          with
+          [
+              T2=double
+          ]
+          and
+          [
+              T1=int
+          ]
+C:\Users\Iterimmo\Desktop\C++\Сссылки\Сссылки.cpp(86): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Swap<int,double>(T1 &,T2 &)"
+          with
+          [
+              T1=int,
+              T2=double
+          ]
+  Сссылки.vcxproj -> C:\Users\Iterimmo\Desktop\C++\Сссылки\x64\Debug\Сссылки.exe
