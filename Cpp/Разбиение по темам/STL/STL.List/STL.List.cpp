@@ -2,19 +2,89 @@
 //
 
 #include <iostream>
+#include <list>
+#define print(x) std::cout<<x<<std::endl
+#define newpart print("\n--------------\n")
+using namespace std;
+
+
+template <typename T>
+void PrintList(const list<T>& lst) {
+    for (auto i = lst.cbegin(); i != lst.cend(); i++)
+        print(*i);
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    list<int> lst = { 1,2,3 };
+
+    lst.push_back(55);
+    lst.push_front(122);
+
+    auto it_lst = lst.begin();
+    print(*it_lst);
+    newpart;
+
+    // шаблон-функция вывода в консоль листа
+    PrintList(lst);
+    newpart;
+
+    // сортировка
+
+    lst.sort();
+
+    PrintList(lst);
+    newpart;
+
+    // поп- и пуш-бэк
+
+    lst.pop_back();
+    lst.pop_front();
+
+    PrintList(lst);
+    print('\n');
+    print(lst.size()); // вывод размера в консоль
+    newpart;
+
+   // ++it_lst;
+    //lst.insert(it_lst, 5000);
+    // Удаление одинаковых последовательных элементов
+    list<int>lst2 = { 5,4,2,4,5,2,5,5,5,5 };
+    lst2.unique();
+    PrintList(lst2);
+    newpart;
+    // очистка листа
+    print(lst2.size());
+    lst2.clear();
+    print(lst2.size());
+    newpart;
+
+    // итерируем лист
+    list<int>lst3 = { 1,2,3,4,5,1,2,3 };
+    auto iter = lst3.begin();
+    ++iter; // нельзя сразу прибавить 3 или...
+    ++iter;
+    lst3.insert(iter, 5000);
+    PrintList(lst3);
+    --iter;
+    --iter;
+    print('\n');
+    advance(iter, 5); // сместим на 5 элементов вправо
+    lst3.insert(iter, 12421214);
+    advance(iter, 2); // сместим еще на 2 (суммарно 7)
+    lst3.insert(iter, 22222222); 
+    PrintList(lst3);
+    newpart;
+
+    lst3.assign(3, 15);
+    PrintList(lst3);
+    newpart;
+
+    list<int>list1 = { 1,2,3 };
+    list<int>list2 = { 5,3 };
+    list1.assign(list2.begin(), list2.end());
+    PrintList(list1);
+    return 0;
 }
 
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
