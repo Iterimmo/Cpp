@@ -24,8 +24,11 @@ int main()
 	auto it = mp.find(44);
 
 	it != mp.end() ? print(it->second):print("Элемент не найден");
-
+	print(mp[2]);
 	newpart;
+
+	multimap<string, int> mlt{ {"Car",4}};
+	mlt.emplace("Car", 6);
 
 	return 0;
 
