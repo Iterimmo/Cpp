@@ -16,7 +16,7 @@ int main()
 		x4 = c;
 		x3 = c;
 	
-		while (!(x4 == x2)) {
+	while (!(x4 == x2)) {
 			x3 = x3 + (x4 * x3);
 			x4 = x4 + c;
 		}

@@ -3,18 +3,77 @@
 
 #include <iostream>
 
+
+class Weapon {
+public:
+    virtual void Strike() = 0;
+
+    void Foo(){
+        std::cout << "foo()" << std::endl;
+    }
+};
+
+
+class Gun : public Weapon {
+public:
+     void Strike() override {
+        std::cout << "Bang !" << std::endl;
+    }
+};
+
+class Pistol: public Gun {
+public:
+
+    void Strike() override {
+        std::cout << "Pew-Pew-Pew";
+    }
+};
+
+class SubmachineGun : public Gun {
+public:
+
+    void Strike() override {
+        std::cout << "Trrrrrrrrrrrrrrrrrrrrrr" << std::endl;
+    }
+
+};
+class RPG : public Weapon {
+    void Strike() override {
+        std::cout<<"BOOM" << std::endl;
+    }
+};
+class Knife : public Weapon {
+    void Strike() override {
+        std::cout << "Chink !" << std::endl;
+    }
+};
+class Player {
+public:
+    void Strike(Weapon* weapon) {
+        weapon->Strike();
+    }
+};
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    Gun gun;
+    SubmachineGun smg;
+    RPG rpg;
+    Knife butterfly;
+
+    Player player;
+    Weapon* weapon = &smg;
+
+    player.Strike(weapon);
+
+    weapon = &butterfly;
+
+    player.Strike(weapon);
+
+    // Проверяем наследования
+    smg.Foo();
+    weapon->Foo();
+    butterfly.Foo();
+
+   
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
