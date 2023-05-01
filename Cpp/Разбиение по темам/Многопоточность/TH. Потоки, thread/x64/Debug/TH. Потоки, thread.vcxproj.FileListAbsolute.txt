@@ -1,0 +1,1 @@
+D:\Cpp\Cpp\Разбиение по темам\Многопоточность\TH. Потоки, thread\x64\Debug\TH. Потоки, thread.exe
