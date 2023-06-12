@@ -1,0 +1,3 @@
+﻿  9.3.cpp
+D:\Cpp\Cpp\Набиваем руку\Purecodecpp\9.3\9.3.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  9.3.vcxproj -> D:\Cpp\Cpp\Набиваем руку\Purecodecpp\9.3\x64\Debug\9.3.exe
