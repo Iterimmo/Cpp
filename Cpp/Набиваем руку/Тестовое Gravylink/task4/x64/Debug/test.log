@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\Cpp\Cpp\Набиваем руку\test\test.cpp(6,28): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Cpp\Cpp\Набиваем руку\test\test.cpp(7,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  test.vcxproj -> D:\Cpp\Cpp\Набиваем руку\test\x64\Debug\test.exe

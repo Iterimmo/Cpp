@@ -15,7 +15,7 @@ int ship_3_palub = 2;
 int ship_2_palub = 3;
 int ship_1_palub = 4;
 
-void view_field(std::vector<std::vector <char>>& field) {
+void view_field(const std::vector<std::vector <char>>& field) {
 	std::cout << "   ";
 	for (int i = 0; i < 10; i++) {
 		std::cout << 10-i << "  ";
