@@ -1,2 +1,0 @@
-D:\Cpp\Cpp\Набиваем руку\TestGravylink\x64\Debug\TestGravylink.exe
-D:\Cpp\Cpp\Набиваем руку\task5\x64\Debug\TestGravylink.exe

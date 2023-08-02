@@ -1,9 +1,0 @@
-# ninja log v5
-3	268	7057025651544516	FirstTry_autogen/timestamp	f9c719ce68f5983a
-3	268	7057025651544516	FirstTry_autogen/mocs_compilation.cpp	f9c719ce68f5983a
-3	268	7057025651544516	D:/Cpp/Cpp/Разбиение по темам/Qt/build-FirstTry-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/FirstTry_autogen/timestamp	f9c719ce68f5983a
-3	268	7057025651544516	D:/Cpp/Cpp/Разбиение по темам/Qt/build-FirstTry-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/FirstTry_autogen/mocs_compilation.cpp	f9c719ce68f5983a
-273	1689	7057025666308683	CMakeFiles/FirstTry.dir/main.cpp.obj	278775418072bacd
-278	1694	7057025666358524	CMakeFiles/FirstTry.dir/mainwindow.cpp.obj	ec3e8e1a45f8af6f
-269	1710	7057025666511031	CMakeFiles/FirstTry.dir/FirstTry_autogen/mocs_compilation.cpp.obj	8d8c97abfd0ec29d
-1710	2095	7057025670300883	FirstTry.exe	22cecb7af19c25b9

@@ -1,8 +1,0 @@
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/untitled.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/list_install_components.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/install.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/install/local.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/untitled_autogen_timestamp_deps.dir
-D:/Cpp/Cpp/Разбиение по темам/Qt/build-untitled-Desktop_Qt_6_4_3_MSVC2019_64bit-Debug/CMakeFiles/untitled_autogen.dir
