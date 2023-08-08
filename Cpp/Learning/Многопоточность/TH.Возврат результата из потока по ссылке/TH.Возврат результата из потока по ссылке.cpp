@@ -6,15 +6,16 @@
 #include <chrono>
 
 
-void Double(int &a) {
+void DoWork(int &a) {
 
-	std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-	std::cout <<"Thread "<<std::this_thread::get_id() << " is working..." << std::endl;
-
+	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+	std::cout << "ID потока DoWork: " << std::this_thread::get_id() << " начал работу" << std::endl;
 	a *= 2;
 
-	std::this_thread::sleep_for(std::chrono::milliseconds(2000));
-	std::cout << "Thread " << std::this_thread::get_id() << " is ending..." << std::endl;
+	std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+
+	std::cout << "ID потока DoWork: " << std::this_thread::get_id() << " закончил работу" << std::endl;
+
 
 }
 
@@ -25,16 +26,17 @@ int main()
 	
 	int q = 5;
 
-	std::thread th(Double,std::ref(q));
+	std::thread th(DoWork, std::ref(q));
 
-	for (size_t i = 0; i<8; i++) {
-
-		std::cout << "ID main thread " << std::this_thread::get_id() << "  " << (i + 1) << std::endl;
-		std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-
+	for (int i = 0; i < 10; i++) {
+		std::cout << "ID потока Main " << std::this_thread::get_id() << std::endl;
+		std::this_thread::sleep_for(std::chrono::milliseconds(800));
 	}
 
+
 	th.join();
-	std::cout <<"------------------------- " << q << std::endl;
+
+	std::cout << q;
+
 
 }

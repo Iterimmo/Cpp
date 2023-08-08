@@ -19,9 +19,9 @@ int main()
     setlocale(LC_ALL, "ru");
 
     std::thread th1(Do_work);
-    std::thread th2(Do_work);
-    std::thread th3(Do_work);
-    std::thread th4(Do_work);
+  //  std::thread th2(Do_work);
+   // std::thread th3(Do_work);
+  //  std::thread th4(Do_work);
 
     //th.detach(); // Пускаем в свободное плавание поток
    // std::cout << "Start main !" << std::endl;
@@ -38,9 +38,9 @@ int main()
   //  std::cout << "End main !" << std::endl;
 
     th1.join(); // Прерываем все остальные потоки и обрабатываем этот
-    th2.join();
-    th3.join();
-    th4.join();
+  //  th2.join();
+  //  th3.join();
+  //  th4.join();
 
     return 0;
 }
