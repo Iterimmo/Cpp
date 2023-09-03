@@ -1,0 +1,19 @@
+{
+    "age": 18,
+    "answer": {
+        "everything": "42",
+        "ships": {
+            "Guard": 20,
+            "counter": 55
+        }
+    },
+    "companies": [
+        "Infopulse",
+        "TM"
+    ],
+    "name": "Alex",
+    "user": {
+        "active": true,
+        "name": "tangro"
+    }
+}

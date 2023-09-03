@@ -1,0 +1,3 @@
+﻿  infoteck.cpp
+D:\Cpp\Тестовые задания\infoteck\infoteck.cpp(18,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  infoteck.vcxproj -> D:\Cpp\Тестовые задания\infoteck\x64\Debug\infoteck.exe

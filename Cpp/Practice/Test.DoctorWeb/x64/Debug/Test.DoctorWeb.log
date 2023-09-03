@@ -1,0 +1,3 @@
+﻿  Test.DoctorWeb.cpp
+D:\Cpp\Cpp\Practice\Test.DoctorWeb\Test.DoctorWeb.cpp(20,37): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Test.DoctorWeb.vcxproj -> D:\Cpp\Cpp\Practice\Test.DoctorWeb\x64\Debug\Test.DoctorWeb.exe
